@@ -1,0 +1,38 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Beatriz A. Miranda
+tagline:             Exploring the World through Data Science
+url:                 http://bmirandab.github.io
+paginate:            2
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Beatriz A. Miranda
+  url:               https://twitter.com/beatrizamiranda
+  email:             beatriz.aux.miranda@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/bmiranda
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Page List
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/index.html'
